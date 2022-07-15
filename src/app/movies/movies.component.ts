@@ -38,9 +38,9 @@ export class MoviesComponent implements OnInit {
     );
   }
 
-  newMovie(name: string, 
-            description: string, 
-            releaseYear: string, 
+  newMovie(name: string,
+            description: string,
+            releaseYear: string,
             image: string): void {
         name = name.trim();
         description = description.trim();
@@ -65,9 +65,9 @@ export class MoviesComponent implements OnInit {
 
   ngOnInit(): void {
     this.getMoviesfromService();
-    this.slider();
+    // this.slider();
 
-    
+
 
   }
 
