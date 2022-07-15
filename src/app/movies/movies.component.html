@@ -12,40 +12,6 @@
 </div> -->
 
 <main>
-
-  <div style="text-align: left;">
-      <table style="width: 20em;">
-          <tr>
-            <td>Name:</td>
-            <td><input #movieName placeholder="Name..."></td>
-          </tr>
-          <tr>
-            <td>Description:</td>
-            <td><input #movieDescription placeholder="Description..."></td>
-          </tr>
-          <tr>
-            <td>Release Year:</td>
-            <td><input #releaseYear placeholder="Release Year..."></td>
-          </tr>
-          <tr>
-            <td>Image:</td>
-            <td><input #movieImage placeholder="Image..."></td>
-          </tr>
-          <tr>
-            <button (click)="newMovie(movieName.value,
-                  movieDescription.value,
-                  releaseYear.value,
-                  movieImage.value);
-                  movieName.value = '';
-                  movieDescription.value = '';
-                  releaseYear.value = '';
-                  movieImage.value = '';
-                  ">
-              Add
-            </button>
-          </tr>
-      </table>
-  </div>
   <div class="container">
     <!-- <div class="icon">
       <span>
@@ -130,5 +96,40 @@
       </span>
     </div> -->
   </div>
-
 </main>
+<br><br>
+
+<div style="text-align: left;">
+  <table style="width: 20em; margin: auto;">
+      <tr>
+        <td>Name:</td>
+        <td><input #movieName placeholder="Name..."></td>
+      </tr><br>
+      <tr>
+        <td>Description:</td>
+        <td><input #movieDescription placeholder="Description..."></td>
+      </tr><br>
+      <tr>
+        <td>Release Year:</td>
+        <td><input #releaseYear placeholder="Release Year..."></td>
+      </tr><br>
+      <tr>
+        <td>Image:</td>
+        <td><input #movieImage placeholder="Image..."></td>
+      </tr><br>
+      <tr>
+        <button (click)="newMovie(movieName.value,
+              movieDescription.value,
+              releaseYear.value,
+              movieImage.value);
+              movieName.value = '';
+              movieDescription.value = '';
+              releaseYear.value = '';
+              movieImage.value = '';
+              " class="button-71" role="button">
+          Add
+        </button>
+      </tr>
+  </table>
+</div>
+<br><br>
