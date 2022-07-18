@@ -3,6 +3,8 @@ import { BaseRouteReuseStrategy } from '@angular/router';
 import { Movie } from '../Models/movie';
 // import { fakeMovies } from '../fakeMovie';
 import { MovieService } from '../movie.service';
+import { NgxPaginationModule } from 'ngx-pagination';
+import { resourceLimits } from 'worker_threads';
 
 
 
@@ -19,6 +21,12 @@ export class MoviesComponent implements OnInit {
     releaseYear: 2022,
     image: "https://m.media-amazon.com/images/M/MV5BODkyYTRlMDItMDlhMC00MzkzLWI3NzQtOGVlMjdjYThlNDM3XkEyXkFqcGdeQXVyMTA1OTcyNDQ4._V1_FMjpg_UX1000_.jpg"
   }
+
+  page: number = 1;
+  count: number = 0;
+  listSize: number = 5;
+  listSizes: any = [3, 5, 10, 15];
+
   // movies = fakeMovies;
   selectedMovie!: Movie;
   movies!: Movie[];
@@ -61,14 +69,22 @@ export class MoviesComponent implements OnInit {
             })
   }
 
+  onListDataChange(event: any) {
+    this.page = event;
+    this.getMoviesfromService();
+  }
+
+  onListTableSizeChange(event: any): void {
+    this.listSize = event.target.value;
+    this.page = 1;
+    this.getMoviesfromService();
+  }
+
   constructor(private movieService: MovieService)  {}
 
   ngOnInit(): void {
     this.getMoviesfromService();
     // this.slider();
-
-
-
   }
 
   slider():void{

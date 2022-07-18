@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'movies', component: MoviesComponent},
   { path: 'dashboard', component: DashboardComponent},
   { path: 'detail/:id', component: MovieDetailComponent},
+  { path: 'dlete/:id', component: MoviesComponent},
 ];
 
 @NgModule({
