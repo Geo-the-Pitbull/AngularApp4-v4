@@ -85,21 +85,11 @@
       </span>
     </div> -->
     <div class="movies-section">
-      <div class="movies-list" *ngFor="let eachMovie of movies | paginate:{
-                                        itemsPerPage: listSize,
-                                        currentPage: page,
-                                        totalItems: count}; let i = index">
+      <div class="movies-list" *ngFor="let eachMovie of movies">
         <a routerLink="/detail/{{eachMovie.id}}">
           <span>{{eachMovie.name}}</span><span></span>
         </a>
       </div>
-    </div>
-    <div>
-      <pagination-controls
-      previousLabel = "Prev"
-      nextLable = "Next"
-      (listChange) = "onListDataChange($event)">
-      </pagination-controls>
     </div>
     <!-- <div class="icon">
       <span  id="id1">
