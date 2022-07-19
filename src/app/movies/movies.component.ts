@@ -4,8 +4,6 @@ import { Movie } from '../Models/movie';
 // import { fakeMovies } from '../fakeMovie';
 import { MovieService } from '../movie.service';
 import { NgxPaginationModule } from 'ngx-pagination';
-import { resourceLimits } from 'worker_threads';
-
 
 
 @Component({

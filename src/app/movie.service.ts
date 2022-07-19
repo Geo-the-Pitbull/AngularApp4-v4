@@ -47,12 +47,9 @@ export class MovieService {
     );
   }
 
-  deleteMovie(id: number): Observable<Movie | any>{
-    const thisUrl = `${this.REST_API_URL}/${id}`;
-    return this.http.delete<Movie>(thisUrl).pipe(
-      tap(thisMovie => console.log(`thisMovie = ${JSON.stringify(thisMovie)}`)),
-      catchError(error => of(new Movie())),
-    );
+  deleteMovie(id: number){
+    return this.http.delete<Movie>(`${this.REST_API_URL}`, this.HTTP_HEADER).pipe()
+      
   }
 
   constructor(public messageService: MessageService, private http: HttpClient) { }
