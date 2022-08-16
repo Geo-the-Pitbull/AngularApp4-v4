@@ -48,8 +48,7 @@ export class MovieService {
   }
 
   deleteMovie(id: number){
-    return this.http.delete<Movie>(`${this.REST_API_URL}/${id}`, this.HTTP_HEADER).pipe()
-      
+    return this.http.delete<Movie>(`${this.REST_API_URL}/${id}`, this.HTTP_HEADER).pipe()  
   }
 
   constructor(public messageService: MessageService, private http: HttpClient) { }

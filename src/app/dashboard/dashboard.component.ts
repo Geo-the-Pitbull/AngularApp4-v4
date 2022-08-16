@@ -12,6 +12,7 @@ export class DashboardComponent implements OnInit {
 
   getDashboardMovies(): void {
     this.movieService.getMovies().subscribe(theseMovies => this.movies = theseMovies.sort((movie1, movie2)=> movie2.releaseYear - movie1.releaseYear));
+
   }
 
   constructor(public movieService: MovieService) { }

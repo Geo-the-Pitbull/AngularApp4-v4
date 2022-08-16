@@ -24,7 +24,11 @@ export class MovieDetailComponent implements OnInit {
 
   update(): void {
     this.movieService.updateMovie(this.movie).subscribe(()=>this.goBack());
-  }          
+  } 
+  
+  // deleteMovie(id): void{
+  //   this.movieService.deleteMovie(this.movie).subscribe(()=>this.goBack());
+  // }
   
   constructor(private route: ActivatedRoute, private location: Location, private movieService: MovieService, private router: Router) { }
 
