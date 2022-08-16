@@ -11,13 +11,20 @@ export class DashboardComponent implements OnInit {
   movies: Movie[] = []
 
   getDashboardMovies(): void {
-    this.movieService.getMovies().subscribe(theseMovies => this.movies = theseMovies.slice(1, 5));
+    this.movieService.getMovies().subscribe(theseMovies => this.movies = theseMovies.sort((movie1, movie2)=> movie2.releaseYear - movie1.releaseYear));
   }
 
   constructor(public movieService: MovieService) { }
 
   ngOnInit(): void {
     this.getDashboardMovies();
+  }
+
+  prodYearOverDecade(movie:Movie){
+    if((new Date().getFullYear() - movie.releaseYear) > 10){
+      return true
+    }
+    return false
   }
 
 }
