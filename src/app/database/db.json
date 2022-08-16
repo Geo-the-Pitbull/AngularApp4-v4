@@ -72,38 +72,38 @@
     },
     {
       "id": 11,
-       "name": "Spiderhead",
-       "description": "Two inmates form a connection while grappling with their pasts in a state-of-the-art penitentiary run by a brilliant visionary who experiments on his subjects with mind-altering drugs.",
-       "releaseYear": 2022,
-       "image": "https://upload.wikimedia.org/wikipedia/en/5/58/Spiderhead.jpg"
-     },
-      {
-        "id": 12,
-        "name": "To all the Boys i'ved loved",
-        "description": "To All the Boys is a franchise consisting of American teenage romance installments, including three feature films and a spin-off television series, based on the titular trilogy of novels written by Jenny Han.",
-        "releaseYear": 2018,
-        "image": "https://m.media-amazon.com/images/M/MV5BZjMwNDQ4NzMtOThmZi00NmMyLThkMWItMTA3MTg2YjdiZDRmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
-      },
-      {
-        "id": 13,
-        "name": "Bird Box",
-        "description": "When a mysterious force decimates the population, only one thing is certain -- if you see it, you die. The survivors must now avoid coming face to face with an entity that takes the form of their worst fears. Searching for hope and a new beginning, a woman and her children embark on a dangerous journey through the woods and down a river to find the one place that may offer sanctuary. To make it, they'll have to cover their eyes from the evil that chases them -- and complete the trip blindfolded.",
-        "releaseYear": 2018,
-        "image": "https://upload.wikimedia.org/wikipedia/en/b/bd/Bird_Box_%28film%29.png"
-      },
-      {
-        "id": 14,
-        "name": "A Quiet Place",
-        "description": "A family struggles for survival in a world where most humans have been killed by blind but noise-sensitive creatures. They are forced to communicate in sign language to keep the creatures at bay.",
-        "releaseYear": 2018,
-        "image": "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Quiet_Place_film_poster.png"
-      },
-      {
-        "id": 15,
-        "name": "Flavors of Youth",
-        "description": "Three stories of youth from different cities in China: memories locked in a bowl of steaming noodles, a fading beauty discovering her way, and a bittersweet first love.",
-        "releaseYear": 2018,
-        "image": "https://m.media-amazon.com/images/M/MV5BYmVkZjU5NWYtNmVhNC00Y2FjLWFiZGUtZGRlMzk3M2YzYmI5XkEyXkFqcGdeQXVyMTk2MDc1MjQ@._V1_.jpg"
-      }
+      "name": "Spiderhead",
+      "description": "Two inmates form a connection while grappling with their pasts in a state-of-the-art penitentiary run by a brilliant visionary who experiments on his subjects with mind-altering drugs.",
+      "releaseYear": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/58/Spiderhead.jpg"
+    },
+    {
+      "id": 12,
+      "name": "To all the Boys i'ved loved",
+      "description": "To All the Boys is a franchise consisting of American teenage romance installments, including three feature films and a spin-off television series, based on the titular trilogy of novels written by Jenny Han.",
+      "releaseYear": 2018,
+      "image": "https://m.media-amazon.com/images/M/MV5BZjMwNDQ4NzMtOThmZi00NmMyLThkMWItMTA3MTg2YjdiZDRmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Bird Box",
+      "description": "When a mysterious force decimates the population, only one thing is certain -- if you see it, you die. The survivors must now avoid coming face to face with an entity that takes the form of their worst fears. Searching for hope and a new beginning, a woman and her children embark on a dangerous journey through the woods and down a river to find the one place that may offer sanctuary. To make it, they'll have to cover their eyes from the evil that chases them -- and complete the trip blindfolded.",
+      "releaseYear": 2018,
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bd/Bird_Box_%28film%29.png"
+    },
+    {
+      "id": 14,
+      "name": "A Quiet Place",
+      "description": "A family struggles for survival in a world where most humans have been killed by blind but noise-sensitive creatures. They are forced to communicate in sign language to keep the creatures at bay.",
+      "releaseYear": 2018,
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Quiet_Place_film_poster.png"
+    },
+    {
+      "id": 15,
+      "name": "Flavors of Youth",
+      "description": "Three stories of youth from different cities in China: memories locked in a bowl of steaming noodles, a fading beauty discovering her way, and a bittersweet first love.",
+      "releaseYear": 2018,
+      "image": "https://m.media-amazon.com/images/M/MV5BYmVkZjU5NWYtNmVhNC00Y2FjLWFiZGUtZGRlMzk3M2YzYmI5XkEyXkFqcGdeQXVyMTk2MDc1MjQ@._V1_.jpg"
+    }
   ]
 }
